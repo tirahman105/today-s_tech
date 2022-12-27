@@ -1,0 +1,26 @@
+body{
+    /* background: rgb(10,9,121);
+background: linear-gradient(90deg, rgba(10,9,121,1) 1%, rgba(21,126,176,1) 46%, rgba(0,212,255,1) 97%); */
+
+/* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+
+background-color: #018749;
+
+
+/* background-image:url(images/bg_img.jpg);
+background-size: cover;
+background-attachment: fixed; */
+}
+.heading{
+    padding: 10px;
+    background-color: bisque;
+}
+
+.form-bg{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(10,9,121);
+    background: linear-gradient(90deg, rgba(10,9,121,1) 1%, rgba(21,126,176,1) 46%, rgba(0,212,255,1) 97%);
+    
+    
+}

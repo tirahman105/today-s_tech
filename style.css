@@ -2,14 +2,14 @@ body{
     /* background: rgb(10,9,121);
 background: linear-gradient(90deg, rgba(10,9,121,1) 1%, rgba(21,126,176,1) 46%, rgba(0,212,255,1) 97%); */
 
-/* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+/* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 
-background-color: #018749;
+background-color: #018749; */
 
 
-/* background-image:url(images/bg_img.jpg);
+background-image:url(images/bg3.png);
 background-size: cover;
-background-attachment: fixed; */
+background-attachment: fixed;
 }
 .heading{
     padding: 10px;
@@ -19,8 +19,27 @@ background-attachment: fixed; */
 .form-bg{
     border: 1px solid white;
     border-radius: 10px;
-    background: rgb(10,9,121);
-    background: linear-gradient(90deg, rgba(10,9,121,1) 1%, rgba(21,126,176,1) 46%, rgba(0,212,255,1) 97%);
+    /* background: rgb(10,9,121);
+    background: linear-gradient(90deg, rgba(10,9,121,1) 1%, rgba(21,126,176,1) 46%, rgba(0,212,255,1) 97%); */
     
     
 }
+
+.message .success {
+    display: none;
+  }
+  .message .danger {
+    display: none;
+  }
+ 
+  .message .successb {
+   display: none;
+ }
+ .message .dangerb {
+   display: none;
+ }
+ 
+
+ /* https://docs.google.com/forms/d/e/1FAIpQLSeSj8c4LHqDCjDqwGwBFmRbwaSUKbP4DeHHiY7l_2tDqRX9Hw/viewform?usp=pp_url&entry.2005620554=Traeq&entry.1045781291=tirahman105@gmail.com&entry.1065046570=Dhaka&entry.1166974658=1111&entry.887664022=Student&entry.1755510426=Test+subject&entry.646849645=B1&entry.1656330169=Bkash&entry.480512193=1111&entry.839337160=NO */
+
+/* https://docs.google.com/forms/d/e/1FAIpQLSeSj8c4LHqDCjDqwGwBFmRbwaSUKbP4DeHHiY7l_2tDqRX9Hw/viewform?usp=pp_url&entry.2005620554=niaz&entry.1045781291=niazm777@gmail.com&entry.1065046570=rangpur&entry.1166974658=01711337077&entry.887664022=Others&entry.1755510426=Digital+Marketing+(3+Months)&entry.646849645=B1+(+10.30+am+to+12.30+pm)&entry.1656330169=Cash&entry.480512193=na&entry.839337160=na */

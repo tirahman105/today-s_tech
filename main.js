@@ -1,5 +1,5 @@
 function message(){
-    var Name = document.getElementById('name');
+    var Name = document.getElementById('studentName');
     var Email = document.getElementById('email');
     var Address = document.getElementById('address');
     var Mobile = document.getElementById('mobile');
@@ -7,20 +7,18 @@ function message(){
     var Subject = document.getElementById('subject');
    
     var Batch = document.getElementById('batch');
-    var Bkash = document.getElementById('bkash');
-    var Nogod = document.getElementById('nogod');
-    var Cash = document.getElementById('cash');
+    var Payment = document.getElementById('payment');
+    
 
-    var Bkashtx = document.getElementById('bkashtx');
-    var Nogodtx = document.getElementById('nogodtx');
-    var CashDate = document.getElementById('cashdate');
+    var Tx = document.getElementById('tx');
+   
 
     var Requirement = document.getElementById('requirement');
 
     const success = document.getElementById('success');
     const danger = document.getElementById('danger');
 
-    if(Name.value === '' || Email.value === '' || Address.value === '' || Mobile.value === '' || Profession.value === '' || Subject.value === '' || Batch.value === '' ){
+    if(Name.value === '' || Email.value === '' || Address.value === '' || Mobile.value === '' || Profession.value === '' || Subject.value === '' || Batch.value === '' || Payment.value === '' || Tx.value === '' ){
         danger.style.display = 'block'; 
     } 
 
@@ -31,12 +29,10 @@ function message(){
             Address.value = '';
             Mobile.value = '';
             Profession.value = '';
-            Bkash.value = '';
-            Nogod.value = '';
-            Cash.value = '';
-            Bkashtx.value = '';
-            Nogodtx.value = '';
-            CashDate.value = '';
+            Payment.value = '';
+            
+            Tx.value = '';
+            
             Requirement.value = '';
 
         }, 2000);

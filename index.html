@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/logo.png">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -11,7 +12,7 @@
     <!-- custom css  -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>Today's tech IT</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -23,7 +24,7 @@
         
     </div>
     <div class="justify-content-center align-items-center d-flex text-white">
-        <h5 class="card-title">Today's Tch IT World</h5>
+        <h5 class="card-title">Today's Tech IT World</h5>
         </div>
         <div class="justify-content-center align-items-center d-flex text-white">
               <p class="card-text">Build Your Future With Tech IT</p>
@@ -36,156 +37,111 @@
     <div class="row ">
        
         <div class="col-sm-3"></div>
-        <div class="col-sm-6  text-white m-4  p-4 form-bg mt-4">
+        <div class="col-sm-6  text-white m-4  p-4 form-bg mt-4 ">
             
             
-            <form id="formValidation" class="text-start" action="https://docs.google.com/forms/d/e/1FAIpQLSeSj8c4LHqDCjDqwGwBFmRbwaSUKbP4DeHHiY7l_2tDqRX9Hw/formResponse" target="hidden_iframe">
-                <div class="row mb-3">
-                    <label for="name" class="col-sm-2 col-form-label">Name</label>
-                    <div class="col-sm-10">
-                      <input type="text" name = "entry.2005620554" class="form-control" placeholder="Your Name" id="name" required>
-                    </div>
-                  </div>
-                <div class="row mb-3">
-                  <label for="email" class="col-sm-2 col-form-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="email" name="entry.1045781291" class="form-control"  placeholder="Give a valid email" id="email">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                    <label for="address" class="col-sm-2 col-form-label">Address</label>
-                    <div class="col-sm-10">
-                      <input type="text" name="entry.1065046570" class="form-control"  placeholder="Your present address" id="address" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <label for="mobile" class="col-sm-2 col-form-label">Mobile No</label>
-                    <div class="col-sm-10">
-                      <input type="tel" name="entry.1166974658" class="form-control"  placeholder="Your mobile no." id="mobile" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                  <label for="profession" class="col-sm-2 col-form-label">Profession</label>
-                  <div class="col-sm-10">
-                    <select class="form-select" name="entry.887664022" id="profession" aria-label="Default select example">
-                        <option selected>Select your profession</option>
-                        <option value="Student">Student</option>
-                        <option value="Job Holder">Job Holder</option>
-                        <option value="HouseWife">Housewife</option>
-                        <option value="Retired">Retired</option>
-                        <option value="Other">Other</option>
-                      </select>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-sm-12">
-                        <label for="subject" class="col-form-label">Which subject you want to enroll?</label>
+          <form id="formValidation" class="text-start" action="https://docs.google.com/forms/d/e/1FAIpQLSeSj8c4LHqDCjDqwGwBFmRbwaSUKbP4DeHHiY7l_2tDqRX9Hw/formResponse" target="hidden_iframe">
+                                 
+            <div class="mb-3">
+              <label for="studentName" class="form-label">Name</label>
+              <input type="text" name="entry.2005620554" class="form-control" id="studentName" placeholder="Input student's name" >
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" name="entry.1045781291" class="form-control" id="email" placeholder="Input a valid email address" >
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" name="entry.1065046570" class="form-control" id="address" placeholder="Input home address" >
+            </div>
+            <div class="mb-3">
+              <label for="mobile" class="form-label">Mobile no.</label>
+              <input type="tel" name="entry.1166974658" class="form-control" id="mobile" placeholder="Input a valid mobile no." >
+            </div>
+            <div class="mb-3">
+              <label for="profession"  class="col-form-label">Select your Profession</label>
+              
+              <select class="form-select" name="entry.887664022" id="profession" aria-label="Default select example">
+                <option selected>Select your profession</option>
+                <option value="Student">Student</option>
+                <option value="Job Holder">Job Holder</option>
+                <option value="HouseWife">Housewife</option>
+                <option value="Retired">Retired</option>
+                <option value="Other">Other</option>
+              </select>
+              
+            </div>
 
-                    </div>
-                    
-                    <div class="col-sm-12">
-                     
-                        <select class="form-select" name="entry.1755510426" id="subject" aria-label="Default select example">
-                            <option selected>Select your subject</option>
-                            <option value="Web desion and development (3 Months)">Web desion and development (3 Months) </option>
-                            <option value="Ghraphic Design (3 Months)">Ghraphic Design (3 Months)</option>
-                            <option value="Ghraphic Design (6 Months)">Ghraphic Design (6 Months)</option>
-                            <option value="Digital marketing (3 Months)">Digital marketing (3 Months)</option>
-                            <option value="Database Programming (3 Months)">Database Programming (3 Months)</option>
-                            <option value="Microsoft Office Application (3 Months )">Microsoft Office Application (3 Months )</option>
-                            <option value="Basic Hardware  ( 3 Months )">Basic Hardware  ( 3 Months )</option>
-                            <option value="Internet and Multimedia ( 3 Months)">Internet and Multimedia ( 3 Months)</option>
-                          </select>
-                    </div>
-                  </div>
+            <div class="mb-3">
+              <label for="subject"  class="col-form-label">Which subject you want to enroll?</label>
+              
+              <select class="form-select" name="entry.1755510426" id="subject" aria-label="Default select example">
+                <option selected>Select subject</option>
+                <option value="Web desion and development (3 Months)">Web desion and development (3 Months) </option>
+                <option value="Ghraphic Design (3 Months)">Ghraphic Design (3 Months)</option>
+                <option value="Ghraphic Design (6 Months)">Ghraphic Design (6 Months)</option>
+                <option value="Digital marketing (3 Months)">Digital marketing (3 Months)</option>
+                <option value="Database Programming (3 Months)">Database Programming (3 Months)</option>
+                <option value="Microsoft Office Application (3 Months )">Microsoft Office Application (3 Months )</option>
+                <option value="Basic Hardware  ( 3 Months )">Basic Hardware  ( 3 Months )</option>
+                <option value="Internet and Multimedia ( 3 Months)">Internet and Multimedia ( 3 Months)</option>
+              </select>
+              
+            </div>
 
-                  <div class="row mb-3">
-                    <div class="col-sm-12">
-                        <label for="batch" class="col-form-label">Which subject you want to enroll?</label>
-
-                    </div>
-                    
-                    <div class="col-sm-12">
-                     
-                        <select class="form-select" name="entry.646849645" id="batch" aria-label="Default select example">
-                            <option selected>Select your batch</option>
-                            <option value="B1 ( 10.30 am to 12.30 pm)">B1 ( 10.30 am to 12.30 pm) </option>
-                            <option value="B2 ( 1.30 pm to 3.30 pm)">B2 ( 1.30 pm to 3.30 pm)</option>
-                            <option value="B3 ( 3.30 pm to 5.30 pm)">B3 ( 3.30 pm to 5.30 pm)</option>
-                            <option value="B4 ( 6.00 pm to 8.00 pm)">B4 ( 6.00 pm to 8.00 pm)</option>
-                            <option value="Special Job holder batch ( 8.00 pm to 10.00pm )">Special Job holder batch ( 8.00 pm to 10.00pm )</option>
-                          </select>
-                    </div>
-                  </div>
-
-                  <div class="row mb-3">
-                    <label class="mb-3" for="payment">Select Payment</label>
-                    <div class="row">
-                        <div class="form-check form-check-inline col">
-                        <input class="form-check-input mb-3" type="radio" name="entry.1656330169" id="bkash" value="bkash">
-                        
-                        <label class="form-check-label mb-3" for="bkash"> <img src="images/bkash.png"  width="100" height="60" alt=""> 01685077207</label>
-                      </div>
-                      <div class="col">
-                        <input type="text" class="form-control" name="entry.480512193" id="bkashtx"  placeholder="Bkash Transection number" >
-
-                      </div>
-                    </div>
-
-                    
-                    <div class="row">
-                        <div class="form-check form-check-inline col">
-                        <input class="form-check-input mb-3" type="radio" name="entry.1656330169" id="nogod" value="nogod">
-                        <label class="form-check-label mb-3" for="nogod"> <img src="images/nogod.png"  width="100" height="60" alt=""> 01685077207</label>
-                      </div>
-                      <div class="col">
-                        <input type="text" class="form-control" name="entry.480512193" placeholder="Nogod Transection number" id="nogodtx" >
-
-                      </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="form-check form-check-inline col">
-                        <input class="form-check-input mb-3" type="radio" name="entry.1656330169" id="cash" value="Cash">
-                        <label class="form-check-label mb-3" for="cash"> <img src="images/tk.JPG"  width="100" height="60" alt=""> Cash</label>
-                      </div>
-                      <div class="col">
-                        <input type="date" class="form-control" name="entry.480512193"  id="cashdate" >
-                        <label for="cash">Cash payment date</label>
-
-                      </div>
-                    </div>
-                    
+            <div class="mb-3">
+              <label for="batch"  class="col-form-label">Which Batch You Want to Enroll?</label>
+              
+              <select class="form-select" name="entry.646849645" id="batch" aria-label="Default select example">
+                <option selected>Select your batch</option>
+                <option value="B1 ( 10.30 am to 12.30 pm)">B1 ( 10.30 am to 12.30 pm) </option>
+                <option value="B2 ( 1.30 pm to 3.30 pm)">B2 ( 1.30 pm to 3.30 pm)</option>
+                <option value="B3 ( 3.30 pm to 5.30 pm)">B3 ( 3.30 pm to 5.30 pm)</option>
+                <option value="B4 ( 6.00 pm to 8.00 pm)">B4 ( 6.00 pm to 8.00 pm)</option>
+                <option value="Special Job holder batch ( 8.00 pm to 10.00pm )">Special Job holder batch ( 8.00 pm to 10.00pm )</option>
+              </select>
+              
+            </div>
 
 
-                  </div>
+            <div class="mb-3">
+              <label for="payment"  class="col-form-label">Payment type</label>
+              
+              <select class="form-select" name="entry.1656330169" id="payment" aria-label="Default select example">
+                <option selected>Select your payment option</option>
+                <option value="Bkash ( 01685077207)">Bkash (01685077207)</option>
+                <option value="Nogod (01685077207)">Nogod (01685077207)</option>
+                <option value="Cash">Cash</option>
+              </select>
+              
+            </div>
+
+            <div class="mb-3">
+              <label for="tx" class="form-label">Transection ID (If you pay cash, mention the Date here) </label>
+              <input type="text" name="entry.480512193" class="form-control" id="tx" placeholder="Give the transection ID " >
+            </div>
+            <div class="mb-3">
+              <label for="requirement" class="form-label">If any special requirements</label>
+              <input type="text" name="entry.839337160" class="form-control" id="requirement" placeholder="Mention your requirements" >
+            </div>
              
-
-                  
-                  <div class="row mb-3">
-                    <div class="col-sm-12">
-                        <label for="requirement" class="col-form-label">If any special requirements? </label>
-
-                    </div>
-                    
-                    <div class="col-sm-12">
-                     
-                        <input type="text" class="form-control" name="entry.839337160"  placeholder="Write your requirements" id="requirement" required>
-                    </div>
-                  </div>
-                
-                
-                  <div class="message text-center">
-                    <div class="success text-success h4" id="success">Your registration is successfull! Please Check Your email.</div>
-                    <div class="danger text-danger" id="danger"> Fields can't be empty! </div>
-                  </div>
-                  <button type="submit" id="myForm"  value="Submit" class="btn btn-success btn-lg" onclick="message()" >Register</button>
-               
-               
-              </form>
+            
+              
+          
+            
+            
+           
+          
+            <div class="message text-center">
+              <div class="success text-white h4" id="success">Your registration is successfull! Please Check Your email.</div>
+              <div class="danger text-danger" id="danger"> Fields can't be empty! </div>
+            </div>
+            <button type="submit" id="myForm"  value="Submit" class="btn btn-warning btn-lg" onclick="message()" >Register</button>
+        
+          </form>
               <iframe id="hidden_iframe"  name="hidden_iframe" style ="display: none;"></iframe>
         </div>
-        <div class="col-sm-3"></div>
+        <div class="col-sm-3 "></div>
     </div>
 </div>
 
